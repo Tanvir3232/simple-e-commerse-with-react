@@ -1,0 +1,43 @@
+.review{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 570px;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.review-info{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 10px;
+  font-weight: 400;
+  font-size: 21px;
+  letter-spacing: 0.0015em;
+}
+.review-info img{
+    width: 120px;
+    height: 120px;
+    
+}
+.delete-btn{
+    height: 60px;
+    width: 60px;
+    padding: 7px 15px;
+    background-color: rgb(209, 140, 140);
+    border-radius: 50%;
+    color: wheat;
+    font-size: 18px;
+}
+.delete-btn:hover{
+    background-color: rgb(216, 50, 50);
+}
+.text-primary{
+    color: rgb(145, 106, 35);
+    font-weight: 500;
+}
+.delete-icon{
+    font-size: 30px;
+    color:rgb(5, 1, 0);
+}
